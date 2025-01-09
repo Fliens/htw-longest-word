@@ -5,12 +5,12 @@ import time
 from pathlib import Path
 from dataclasses import dataclass
 
+ROOTPATH = "data"
+
 @dataclass
 class WordAnalysis:
     language: str
     longest_word: str
-
-ROOTPATH = "data"
 
 def find_longest_word(text: str) -> str:
     words = re.findall(r'\w+', text)

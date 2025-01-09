@@ -7,12 +7,12 @@ from dataclasses import dataclass
 import asyncio
 import aiofiles
 
+ROOTPATH = "data"
+
 @dataclass
 class WordAnalysis:
     language: str
     longest_word: str
-
-ROOTPATH = "data"
 
 def find_longest_word(text: str) -> str:
     words = re.findall(r'\w+', text)
