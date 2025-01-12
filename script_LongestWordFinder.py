@@ -5,7 +5,7 @@ import time
 from pathlib import Path
 from dataclasses import dataclass
 
-ROOTPATH = "data"
+ROOTPATH = "/Users/sophia1/Desktop/Texte8mal"
 
 @dataclass
 class WordAnalysis:
