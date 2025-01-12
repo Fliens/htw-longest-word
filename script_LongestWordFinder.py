@@ -5,7 +5,7 @@ import time
 from pathlib import Path
 from dataclasses import dataclass
 
-ROOTPATH = "/Users/sophia1/Desktop/Texte8mal"
+ROOTPATH = "data"
 
 @dataclass
 class WordAnalysis:
@@ -87,6 +87,6 @@ if __name__ == "__main__":
     
     print("Analysis results:")
     for result in sorted_results:
-        print(f"Language: {result.language}, Longest Word: {result.longest_word}")
+        print(f"{result.language} - {result.longest_word} - {len(result.longest_word)}")
     
     print(f"Total elapsed time: {gather_time + read_time + process_time + sort_time:.2f} seconds")
