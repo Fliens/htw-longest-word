@@ -8,7 +8,7 @@ The purpose of this repository is to find the longest word in a given text effic
 
 After running multiple tests with various approaches, we observed the following results:
 
-| Used technology | Taken Time 1x dataset | T. 4x dataset | T. 8x dataset |
+| Used technology | Taken Time 1x dataset | T. 4x dataset (500 MB) | T. 8x dataset (1 GB) |
 |---|---|---|---|
 | Pyspark_First | 19.6s, 26.8s, 22.1s<br>AVG: 22.83s | 81s, 92.5s, 89.4s<br>AVG: 87.63s | 99.4s, 97.8s, 97.4s<br>AVG: 98.2s |
 | Pyspark_New | 22.7s, 22.4s, 25.8s<br>AVG: 23.63s | 88.9s, 91.7s, 89.3s<br>AVG: 89.97s | 92.6s, 97.1s, 96s<br>AVG: 95.23s |
